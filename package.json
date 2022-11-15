@@ -1,0 +1,18 @@
+{
+  "name": "vivela-icon-font-generator",
+  "version": "1.0.0",
+  "description": "Icon Font Generator for Vivela Projects",
+  "main": "icon-font-generator.js",
+  "scripts": {
+    "vivela-icons:generate": "node icon-font-generator.js"
+  },
+  "type": "module",
+  "author": "Juana Custodio",
+  "license": "ISC",
+  "dependencies": {
+    "console-table-printer": "^2.9.0",
+    "fast-glob": "^3.2.5",
+    "icon-font-buildr": "^1.4.2",
+    "snake-case": "^3.0.4"
+  }
+}
