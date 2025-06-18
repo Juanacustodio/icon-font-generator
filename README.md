@@ -13,7 +13,7 @@ Generador de IconFonts para los proyectos móviles o web de Vivela.
 Instalar las dependencias
 
 ```bash
-// vivela-icon-font-generator
+// icon-font-generator
 
 npm install
 ```
@@ -24,9 +24,9 @@ Luego crear la siguiente carpeta `vivela-icon-font-generator/resources/svg-icons
 Para generar los iconos se debe correr el siguiente comando
 
 ```bash
-// vivela-icon-font-generator
+// icon-font-generator
 
-npm run vivela-icons:generate
+npm run icons:generate
 ```
 
 La nueva fuente será creada con el nombre: `VivelaIcons.ttf`. Se encontrará en la siguiente dirección `vivela-icon-font-generator/icon-fonts` y adicionalmente se mostrará una tabla en consola con el nombre de los iconos y su correspondiente `ligature` para su uso en la web o aplicaciones móviles

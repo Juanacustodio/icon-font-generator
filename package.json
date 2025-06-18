@@ -1,10 +1,10 @@
 {
-  "name": "vivela-icon-font-generator",
+  "name": "icon-font-generator",
   "version": "1.0.0",
-  "description": "Icon Font Generator for Vivela Projects",
+  "description": "Icon Font Generator",
   "main": "icon-font-generator.js",
   "scripts": {
-    "vivela-icons:generate": "node icon-font-generator.js"
+    "icons:generate": "node icon-font-generator.js"
   },
   "type": "module",
   "author": "Juana Custodio",
